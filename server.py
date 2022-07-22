@@ -1,3 +1,5 @@
+from codecs import utf_8_decode
+from encodings import utf_8, utf_8_sig
 from socket import *
 
 serverPort = 12000
@@ -33,3 +35,4 @@ while True:
     print('...')
 
     connectionSocket.close()
+
